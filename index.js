@@ -57,8 +57,11 @@ bot.on("message", async message => {
 	if(command === `${prefix}mobile-phones`){
 		message.channel.send("mobild phones are known to track youj, through cell towers, log your location based on geolocation triangles, are almost always running propitery software, or if there not, the cell towers defintely are, so i would suggest getting rid of them if you can.");
 	}
+	if(command === `${prefix}unlicense`) {
+	message.channel.send("Freedom bot is distrobuted under the unlicense for more details please vist this link: https://raw.githubusercontent.com/baby-princess/freedom-bot/master/UNLICENSE");
+	}
 	if(command === `${prefix}man`) {
-		message.channel.send("\nFREEDOM-BOT(1)\t\tManual Pager Utils\t\tFREEDOM-BOT(1)\nNAME\nfreedom-bot - A discord bot which repects free software and the GNU standards\n\nSYNOPSIS\nfreedom-bot [hello-world] | [invite] | [sourcecode] | [host] | [copyleft] | [mobile-phones] | [man]\nDESCRIPTION\nfreedom-bot is a discord bot that respects the UNIX philosphy.\n\ndefault prefix is GNU/ \nEXAMPLES\nfreedom-bot hello-world\nruns the hello-world command\nfreedom-bot host\n displays information about the host system\n0.0.1\t\t2019-04-07\t\tFREEDOM-BOT(1)")
+		message.channel.send("\nFREEDOM-BOT(1)\t\tManual Pager Utils\t\tFREEDOM-BOT(1)\nNAME\nfreedom-bot - A discord bot which repects free software and the GNU standards\n\nSYNOPSIS\nfreedom-bot [hello-world] | [invite] | [sourcecode] | [host] | [copyleft] | [mobile-phones] | [unlicense] | [man]\nDESCRIPTION\nfreedom-bot is a discord bot that respects the UNIX philosphy.\n\ndefault prefix is GNU/ \nEXAMPLES\nfreedom-bot hello-world\nruns the hello-world command\nfreedom-bot host\n displays information about the host system\n0.0.1\t\t2019-04-07\t\tFREEDOM-BOT(1)")
 	}
 });
 
