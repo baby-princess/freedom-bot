@@ -3,8 +3,7 @@ the bot for freedom medow discord server
 
 requirements:
 nodejs
-npm
-  - discord.js
+npm: and the discord.js libaray
 a token to put in the config.json
 
 usage:
@@ -18,4 +17,3 @@ GNU/[command]
 -  suckless : provides a link to the suckless website to get simpiler and less bloated software
 -  mobile-phones : provides an overview on the state of mobile phones.
 -  man : provides a UNIX man page for the bot, with help
-
