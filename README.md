@@ -6,6 +6,34 @@ nodejs
 npm: and the discord.js libaray
 a token to put in the config.json
 
+# setup:
+
+Install nodejs and npm if you don't already have them.
+
+run `npm i discord.js`
+
+go to ![https://discordapp.com/developers/applications](https://discordapp.com/developers/applications) and log in
+
+click create app then follow the setup.
+
+then click create bot user
+
+then click on bot then click copy on the token.
+
+To finish the setup make a `config.json` file with the following contents
+
+
+```
+{
+	"token":	"your token you got from before here",
+	"prefix":	"GNU/"
+}
+```
+
+then finally start it with `node index.js` or if you want automatic restarts install nodemon through npm and run `nodemon index.js`
+
+then add the bot to your server and your done
+
 usage:
 GNU/[command]
 
