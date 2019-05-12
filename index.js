@@ -60,8 +60,11 @@ bot.on("message", async message => {
 	if(command === `${prefix}unlicense`) {
 	message.channel.send("Freedom bot is distrobuted under the unlicense for more details please vist this link: https://raw.githubusercontent.com/baby-princess/freedom-bot/master/UNLICENSE");
 	}
+	if(command === `${prefix}IRC`){
+	message.channel.send("IRC has had a fairly big impact on the overall devlopments of messaging, it has allowed for people who would otherwise be censored to talk in a more open manner, it allows for journalists to communicate, it allows for orginzations to communicate etc.\n\nIt was also fundamnetally more secure then the current chat platforms we have now, as well as more private.\n\nFor these reasons i suggest everyone at least has an IRC client.")
+	}
 	if(command === `${prefix}man`) {
-		message.channel.send("\nFREEDOM-BOT(1)\t\tManual Pager Utils\t\tFREEDOM-BOT(1)\nNAME\nfreedom-bot - A discord bot which repects free software and the GNU standards\n\nSYNOPSIS\nfreedom-bot [hello-world] | [invite] | [sourcecode] | [host] | [copyleft] | [mobile-phones] | [unlicense] | [man]\nDESCRIPTION\nfreedom-bot is a discord bot that respects the UNIX philosphy.\n\ndefault prefix is GNU/ \nEXAMPLES\nfreedom-bot hello-world\nruns the hello-world command\nfreedom-bot host\n displays information about the host system\n0.0.1\t\t2019-04-07\t\tFREEDOM-BOT(1)")
+		message.channel.send("\nFREEDOM-BOT(1)\t\tManual Pager Utils\t\tFREEDOM-BOT(1)\nNAME\nfreedom-bot - A discord bot which repects free software and the GNU standards\n\nSYNOPSIS\nfreedom-bot [hello-world] | [invite] | [sourcecode] | [host] | [copyleft] | [mobile-phones] | [unlicense] | [IRC] | [man]\nDESCRIPTION\nfreedom-bot is a discord bot that respects the UNIX philosphy.\n\ndefault prefix is GNU/ \nEXAMPLES\nfreedom-bot hello-world\nruns the hello-world command\nfreedom-bot host\n displays information about the host system\n0.0.1\t\t2019-04-07\t\tFREEDOM-BOT(1)")
 	}
 });
 
